@@ -42,6 +42,10 @@ nav {
     /* box-shadow: inset; */
     text-shadow: 0 0 30px  #149cc2;
 }
+.logo:hover{
+  color: #804b84;
+  text-shadow: 0 0 10px #38bdf8;
+}
 
 .nav-links {
     display: flex;
@@ -78,8 +82,9 @@ main {
     z-index: 1;
     border-top: 0.4px solid #00cfff;
     box-shadow: 0 0 4px #75caff;
-    padding: 80px 12% 60px;
+    padding: 80px 5% 60px;
 }
+
 
 main::before {
     content: "";
@@ -91,8 +96,8 @@ main::before {
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 500;
+    font-size: 4.5rem;
+    font-weight: 400;
     background: linear-gradient(90deg, #a96eff, #9e50ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -176,7 +181,7 @@ footer {
     
 }
 
-/* ==== Colonne gauche avec logo + description ==== */
+/* ==== Colonne gauche avec logo ==== */
 .footer-info {
     flex: 1 1 300px;
     min-width: 250px;
@@ -251,7 +256,7 @@ footer {
     color: #38bdf8;
 }
 
-/* ==== Contact section avec icônes et fond coloré ==== */
+/* ==== Contact section avec icônes ==== */
 .footer-contact-row {
     display: flex;
     justify-content: space-between;
@@ -294,7 +299,7 @@ footer {
     color: #ccc;
 }
 
-/* ==== Bas de page (droits + liens) ==== */
+/* ==== Bas de page ==== */
 .footer-bottom {
     text-align: center;
     font-size: 0.85rem;
@@ -330,7 +335,6 @@ footer {
 .bg {
   position: relative;
   width: 100%;
-  /* background: url('TON_IMAGE_DE_FOND') center/cover no-repeat; */
 }
 
 .overlay {
@@ -511,7 +515,7 @@ footer {
 .bg {
   position: relative;
   width: 100%;
-  /* background: url('TON_IMAGE_DE_FOND') center/cover no-repeat; */
+  
 }
 
 .overlay {
